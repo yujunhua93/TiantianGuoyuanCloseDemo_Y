@@ -79,7 +79,6 @@ public class CountTimerView extends View {
         canvas.drawLine(25,75,75,25,mXPaint);
     }
 
-
     public void startCountDown(){
             ValueAnimator valueAnimator = getValueAnimatior(5 * 1000);
             valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {

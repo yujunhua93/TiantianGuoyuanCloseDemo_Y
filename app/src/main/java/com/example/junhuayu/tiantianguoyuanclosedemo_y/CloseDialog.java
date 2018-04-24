@@ -43,6 +43,7 @@ public class CloseDialog extends ViewGroup {
         addView(rootView);
         countTimerView = new CountTimerView(mContext);
         addView(countTimerView);
+        countTimerView.startCountDown();
     }
 
     @Override

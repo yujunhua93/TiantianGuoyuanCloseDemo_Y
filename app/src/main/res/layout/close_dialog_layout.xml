@@ -5,7 +5,11 @@
     android:layout_height="match_parent"
     android:background="#bf000000">
     <com.example.junhuayu.tiantianguoyuanclosedemo_y.CountTimerView
+        android:id="@+id/close_iv"
         android:layout_centerInParent="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
 </RelativeLayout>
